@@ -11,7 +11,7 @@ st.subheader("Interact with this dashboard using the widgets on the sidebar")
 
 
 #read in the file
-movies_data = pd.read_csv("https://raw.githubusercontent.com/nv-thang/Data-Visualization-Course/main/movies.csv")
+movies_data = pd.read_csv("https://raw.githubusercontent.com/nv-thang/Data-Visualization-Course/main/Dataset%20for%20Practice/movies.csv")
 movies_data.info()
 movies_data.duplicated()
 movies_data.count()
